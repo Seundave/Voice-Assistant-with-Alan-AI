@@ -1,0 +1,13 @@
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom styles */
+button{
+  @apply px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600;
+}
+/* Example */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;/
+}
